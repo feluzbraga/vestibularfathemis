@@ -1,8 +1,9 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
+<!-- Faculdade Themis | Landing Page Vestibular 2027 | V3 -->
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Vestibular 2027 | Faculdade Themis</title>
+<title>Vestibular 2027 | Faculdade Themis | Uma escolha à altura do seu futuro</title>
 <meta name="description" content="Uma escolha à altura do seu futuro. Conheça Direito, Administração e Ciências Contábeis na Faculdade Themis e inscreva-se no Vestibular 2027.">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -20,6 +21,72 @@ section.standard{padding:100px 0}.why-grid{display:grid;grid-template-columns:.8
 .modal{display:none;position:fixed;inset:0;z-index:100;background:#020a12c9;backdrop-filter:blur(8px);align-items:center;justify-content:center;padding:20px}.modal.open{display:flex}.card{background:#fff;width:min(500px,100%);padding:35px;position:relative;box-shadow:0 30px 90px #0006}.close{position:absolute;right:14px;top:9px;border:0;background:none;font-size:25px;color:#777;cursor:pointer}.card h2{font-size:43px;line-height:.94;color:var(--navy)}.card h2 span{color:var(--gold)}.card>p{font-size:11px;color:var(--muted);margin:12px 0 20px}.field{margin-bottom:12px}.field label{display:block;font-size:9px;font-weight:800;text-transform:uppercase;color:var(--navy);margin-bottom:5px}.field input,.field select{width:100%;height:44px;border:1px solid #d6d0c5;padding:0 12px;font:11px Montserrat;outline:none}.field input:focus,.field select:focus{border-color:var(--gold)}.form-btn{width:100%;margin-top:4px}.status{display:none;background:#f4f0e7;padding:10px;margin-top:10px;text-align:center;font-size:10px;color:var(--navy)}.status.show{display:block}.legal{font-size:8px!important;color:#8a9299!important;line-height:1.4!important;margin:10px 0 0!important}
 @media(max-width:900px){.links{display:none}.hero-grid,.why-grid,.school-grid,.rio-grid{grid-template-columns:1fr}.hero{padding-top:120px}.sticky{position:static}.photo{height:420px}.trust-grid{grid-template-columns:1fr 1fr}.courses-grid{grid-template-columns:1fr}.course-img{height:280px}.rio-box{margin:-45px 15px 0 0}.double{display:block}.double p{margin-top:14px}.course-head{display:block}.course-head .copy{margin-top:15px}}
 @media(max-width:560px){.container{width:90%}.nav{gap:10px}.brand img{width:130px}.nav .btn{padding:9px 10px;font-size:8px}.hero h1{font-size:57px}.hero-logo{width:150px}.photo{height:340px}.badge{left:10px}.trust-grid{grid-template-columns:1fr 1fr}.trust-item{border-bottom:1px solid #d7cebf}.features{grid-template-columns:1fr}.standard,.school,.courses,.rio{padding:75px 0}.quote{padding:25px}.quote p{font-size:29px}.rio-photo{height:340px}.rio-box{padding:26px}.foot{display:block}.foot p{text-align:left;margin-top:12px}.card{padding:28px 22px}}
+
+/* V3 - ajustes de escala e espaçamento */
+.section-title{font-size:clamp(36px,4.2vw,54px);line-height:.99}
+.hero{padding:120px 0 60px;min-height:650px}
+.hero-logo{width:165px;margin-bottom:28px}
+.hero h1{font-size:clamp(52px,6.2vw,78px);line-height:.88;letter-spacing:-1.5px}
+.hero .copy{font-size:14px;margin-top:19px}
+.pills{margin:20px 0}
+.photo{height:450px}
+.trust-grid{padding:21px 0}
+section.standard{padding:80px 0}
+.why-grid{gap:55px}
+.features{gap:12px}
+.feature{padding:21px;min-height:155px}
+.num{font-size:29px}
+.feature h3{font-size:16px;margin:8px 0 6px}
+.feature p{font-size:10px}
+.school{padding:80px 0}
+.school-grid{gap:55px}
+.school .copy{margin-top:14px}
+.list{gap:12px;margin-top:23px}
+.quote{padding:30px}
+.quote p{font-size:30px}
+.courses{padding:80px 0}
+.course-head{margin-bottom:30px}
+.course-img{height:190px}
+.course-body{padding:22px}
+.course h3{font-size:34px}
+.course ul{margin-top:16px;gap:7px}
+.course li{font-size:10px}
+.highlight{margin-top:16px;font-size:9px}
+.course .btn{margin-top:16px}
+.double{margin-top:18px;padding:18px 25px;gap:30px}
+.double strong{font-size:28px}
+.double p{font-size:10px}
+.rio{padding:80px 0}
+.rio-grid{gap:50px}
+.rio-photo{height:400px}
+.rio-box{padding:30px}
+.rio-box h3{font-size:35px}
+.final{padding:75px 0}
+.modal .card{padding:30px}
+.card h2{font-size:36px}
+
+@media(max-width:900px){
+  .hero{padding-top:110px}
+  .photo{height:400px}
+  section.standard,.school,.courses,.rio{padding:70px 0}
+  .course-img{height:260px}
+  .rio-photo{height:380px}
+}
+@media(max-width:560px){
+  .hero h1{font-size:49px;letter-spacing:-1px}
+  .hero-logo{width:145px}
+  .section-title{font-size:36px}
+  .photo{height:330px}
+  .feature{padding:18px;min-height:140px}
+  .feature h3{font-size:14px}
+  .feature p{font-size:9.5px}
+  .course-img{height:230px}
+  .course h3{font-size:32px}
+  .double strong{font-size:25px}
+  .rio-photo{height:330px}
+  .rio-box h3{font-size:32px}
+}
+
 </style>
 </head>
 <!-- THEMIS ASSETS
